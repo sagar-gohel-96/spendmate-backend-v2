@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.main {
+  display: flex;
+  flex: 1;
+}
+
+.content {
+  display: flex;
+  flex: 1;
+  border: 10px solid gray;
+}
+
+@media (max-width: 576px) {
+  .main {
+    flex-direction: column-reverse;
+    height: unset;
+  }
+}
+
+.body {
+  flex: 1;
+  padding: 1rem;
+}

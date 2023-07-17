@@ -1,0 +1,12 @@
+.container {
+  display: inline-flex;
+  margin: 0.5rem;
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.text {
+  color: black;
+  padding-left: 0.5rem;
+}

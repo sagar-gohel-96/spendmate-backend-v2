@@ -1,0 +1,15 @@
+.container {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.logoContainer {
+  color: black;
+  display: flex;
+  justify-content: flex-start;
+  font-weight: bold;
+  font-size: 1.5rem;
+}

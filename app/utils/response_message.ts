@@ -1,0 +1,18 @@
+export enum responseMessage {
+  methodNotAllowed = "Method not allowed",
+  userExist = "User already exists with this email address",
+  userNotFound = "User not found",
+  transactionNotFound = "Transaction not found",
+  failToCreateTransaction = "Failed to create transaction",
+  userDeleted = "User deleted successfully",
+  userUpdated = "User updated successfully",
+  invalidCredentials = "Invalid credentials",
+  failToSignup = "Failed to signup",
+  transactionFetched = "Transaction fetched successfully",
+  transactionUpdated = "Transaction updated successfully",
+  transactionDeleted = "Transaction deleted successfully",
+  transactionCreated = "Transaction created successfully",
+  userFetched = "User fetched successfully",
+  loginSuccessfully = "Login successfully",
+  signupSuccessfully = "Signup successfully",
+}
